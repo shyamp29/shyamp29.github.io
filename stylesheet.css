@@ -1,0 +1,76 @@
+/* Tag selector - styles the body */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Tag selector - styles h1 */
+h1 {
+    margin: 0;
+    font-size: 2.5em;
+}
+
+h2 {
+    color: #bf5700;
+}
+
+/* ID selector - styles the header */
+#header {
+    background-color: #bf5700;
+    color: white;
+    text-align: center;
+    padding: 40px 20px;
+    margin-bottom: 20px;
+}
+
+#header h2 {
+    color: white;
+}
+
+/* Class selector - used on multiple elements */
+.subtitle {
+    font-style: italic;
+    color: #ccc;
+    font-size: 1.2em;
+}
+
+/* Class selector for sections */
+.section {
+    background-color: white;
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Link styling */
+a {
+    color: #bf5700;
+    text-decoration: none;
+}
+
+/* Hover effect on links */
+a:hover {
+    color: #333;
+}
+
+/* Image styling */
+img {
+    border-radius: 50%;
+    display: block;
+    margin: 15px auto;
+}
+
+/* List styling */
+ul {
+    list-style-type: square;
+    padding-left: 20px;
+}
+
+li {
+    padding: 5px 0;
+}
